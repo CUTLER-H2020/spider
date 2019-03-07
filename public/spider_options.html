@@ -1,0 +1,11 @@
+<div class="form-group">
+  <label>Tension - {{ vis.params.tension/10 }}</label>
+  <input type="range" ng-model="vis.params.tension" class="form-control" min="0" max="9" />
+</div>
+
+<div class="form-group">
+  <label class="form-label" for="showScale">
+    <input class="kuiCheckBox" id="showScale" type="checkbox" ng-model="vis.params.showScale">
+    Show scale
+  </label>
+</div>
