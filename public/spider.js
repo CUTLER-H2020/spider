@@ -24,9 +24,13 @@ function SpiderProvider(Private) {
       template: RadarVisTemplate,
       defaults: {
         showScale: true,
-        tension: 0
+        tension: 0,
+        useCustomScale: false,
+        minScale: 0,
+        maxScale: 10
       }
     },
+    responseHandler: 'none',
     editorConfig: {
       optionsTemplate: optionsTemplate,
       schemas: new Schemas([

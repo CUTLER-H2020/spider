@@ -114,12 +114,24 @@ module.controller('SpiderVisController', function ($scope, $element, $timeout) {
         }
         ]
       };
-      const options = {
+      let options = {
         scale: {
-          // Only option: Shows/Hides the scale
-          display: $scope.vis.params.showScale
+          // Display option: Shows/Hides the scale
+          display: $scope.vis.params.showScale,
         }
       };
+      if ($scope.vis.params.useCustomScale) {
+        options = {
+          scale: {
+            // Display option: Shows/Hides the scale
+            display: $scope.vis.params.showScale,
+            ticks: {
+              min: $scope.vis.params.minScale,
+              max: $scope.vis.params.maxScale
+            }
+          }
+        };        
+      }
 
       $scope.radarchart = new Chartjs(ctx, {
         data: dataComplete,
