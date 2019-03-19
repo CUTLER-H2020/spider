@@ -6,13 +6,13 @@
   </div>
 
   <div class="form-group">
-    <label>Tension - {{ vis.params.tension/10 }}</label>
-    <input type="range" ng-model="vis.params.tension" class="form-control" min="0" max="9" />
+    <label>Tension - {{ editorState.params.tension/10 }}</label>
+    <input type="range" ng-model="editorState.params.tension" class="form-control" min="0" max="9" />
   </div>
 
   <div class="form-group">
     <label class="form-label" for="showScale">
-      <input class="kuiCheckBox" id="showScale" type="checkbox" ng-model="vis.params.showScale">
+      <input class="kuiCheckBox" id="showScale" type="checkbox" ng-model="editorState.params.showScale">
       Show scale
     </label>
   </div>
@@ -27,16 +27,16 @@
 
   <div class="form-group">
     <label class="form-label" for="useCustomScale">
-      <input class="kuiCheckBox" id="useCustomScale" type="checkbox" ng-model="vis.params.useCustomScale">
+      <input class="kuiCheckBox" id="useCustomScale" type="checkbox" ng-model="editorState.params.useCustomScale">
       Use custom scale
     </label>
     <label class="form-label" for="minScale">
-      <input id="minScale" type="number" ng-model="vis.params.minScale" ng-disabled="!vis.params.useCustomScale" less-than="vis.params.maxScale"
+      <input id="minScale" type="number" ng-model="editorState.params.minScale" ng-disabled="!editorState.params.useCustomScale" less-than="editorState.params.maxScale"
       >
       Min value
     </label>
     <label class="form-label" for="maxScale">
-      <input id="maxScale" type="number" ng-model="vis.params.maxScale" ng-disabled="!vis.params.useCustomScale" greater-than="vis.params.minScale.value">
+      <input id="maxScale" type="number" ng-model="editorState.params.maxScale" ng-disabled="!editorState.params.useCustomScale" greater-than="editorState.params.minScale.value">
       Max value
     </label>
   </div>
