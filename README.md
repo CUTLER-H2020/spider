@@ -64,4 +64,4 @@ For more information about any of these commands run `yarn ${task} --help`. For 
 
 ## Contact
 
-For any inquires contact Ioannis Tsampoulatidis (itsam@iti.gr)
+For any inquiries contact Ioannis Tsampoulatidis (itsam@iti.gr)
