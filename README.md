@@ -5,6 +5,8 @@
 >
 > A spider web or radar chart is a way of showing multiple data points and the variation between them. They are often useful for comparing the points of two or more different data sets.
 
+> Additional information on this plugin and a manual on how to use it to create spider web graphs can be found in Deliverable [D8.2 "Cross-domain insights and visualization widget"](https://zenodo.org/record/3386085) (section 5).
+
 ---
 
 ## Version
@@ -28,7 +30,7 @@ This widget is implemented as a Kibana 7 plugin and as such, can be used in conj
 
 ![spider-web-new-widget](./spider-web-new-widget.jpg)
 
-Additional information on this plugin and a manual on how to use it to create spider web graphs can be found in Deliverable [D8.2](https://zenodo.org/record/3386085) "Cross-domain insights and visualization widget" (section 5).
+As mentioned above, a detailed user manual can be found in CUTLER Deliverable [D8.2 "Cross-domain insights and visualization widget" (section 5)](https://zenodo.org/record/3386085).
 
 ## Development
 
