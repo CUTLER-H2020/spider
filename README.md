@@ -15,7 +15,12 @@ Made for Kibana version: **6.6.x**
 
 ## Installation
 
-TBD
+- Log in to your server
+- Change directory to `your_kibana_installation_path`
+- If you are using Docker, run: docker exec -it { container_name } bash
+- Install the plugin by running: bin/kibana-plugin install https://github.com/CUTLER-H2020/spider.git
+- This step takes about 5 minutes...
+- Done!
 
 ## Usage
 
