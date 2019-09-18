@@ -53,6 +53,9 @@ See the [kibana contributing guide](https://github.com/elastic/kibana/blob/maste
 
 For more information about any of these commands run `yarn ${task} --help`. For a full list of tasks checkout the `package.json` file, or run `yarn run`.
 
+## Aditional Information
+Additional information on this plugin and a manual on how to use it to create spider web graphs can be found in Deliverable [D8.2](https://zenodo.org/record/3386085) "Cross-domain insights and visualization widget" (section 5).
+
 ## Contact
 
 For any inquires contact Ioannis Tsampoulatidis (itsam@iti.gr)
