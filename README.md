@@ -19,7 +19,11 @@ TBD
 
 ## Usage
 
-TBD
+This widget is implemented as a Kibana 7 plugin and as such, can be used in conjunction with other visualization types like bar graphs, pie charts, goal gauges, etc. and can be placed into a common dashboard. The figure below depicts the seamless integration of the new widget in the list of available Kibana visualization types.
+
+![spider-web-new-widget](./spider-web-new-widget.jpg)
+
+Additional information on this plugin and a manual on how to use it to create spider web graphs can be found in Deliverable [D8.2](https://zenodo.org/record/3386085) "Cross-domain insights and visualization widget" (section 5).
 
 ## Development
 
@@ -52,9 +56,6 @@ See the [kibana contributing guide](https://github.com/elastic/kibana/blob/maste
     Run the server tests using mocha.
 
 For more information about any of these commands run `yarn ${task} --help`. For a full list of tasks checkout the `package.json` file, or run `yarn run`.
-
-## Aditional Information
-Additional information on this plugin and a manual on how to use it to create spider web graphs can be found in Deliverable [D8.2](https://zenodo.org/record/3386085) "Cross-domain insights and visualization widget" (section 5).
 
 ## Contact
 
